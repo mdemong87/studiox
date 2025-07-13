@@ -1,0 +1,33 @@
+/* watermarktext start from here */
+
+
+.waterMarkText {
+    text-align: center;
+    width: fit-content;
+    color: rgba(7, 63, 148, 1) !important;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0 !important;
+    margin: 0 !important;
+    letter-spacing: 12px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(34, 94, 186);
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(87, 101, 226),
+        -1px 0px 0 rgb(76, 90, 215),
+        -2px 0px 0 rgb(65, 79, 204),
+        -3px 0px 0 rgb(54, 68, 193),
+        -4px 0px 0 rgb(44, 58, 183),
+        -5px 0px 0 rgb(33, 47, 172),
+        -6px 0px 0 rgb(22, 36, 161),
+        -7px 0px 0 rgb(11, 25, 150),
+        -8px 0px 0 rgb(0, 14, 139),
+        -9px 0px 0 rgb(-11, 3, 128),
+        -10px 0px 0 rgb(-22, -8, 117),
+        -11px 0px 10px rgba(0, 0, 0, 0.56),
+        -11px 0px 1px rgba(0, 0, 0, 0.5),
+        0px 0px 10px rgba(0, 0, 0, .2);
+
+
+    background: linear-gradient(var(--primary-color), var(--whiteSecondary-color), var(--primary-color));
+}

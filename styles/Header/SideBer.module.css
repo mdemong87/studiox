@@ -1,0 +1,32 @@
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+}
+
+.sidebackground {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: var(--white-primary);
+
+}
+
+
+/* if needed in for in fututer */
+/* .refresh {
+  padding: 10px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+} */

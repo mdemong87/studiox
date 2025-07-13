@@ -1,0 +1,145 @@
+.letstalk {
+    background: var(--whiteSecondary-color);
+    height: fit-content;
+
+    padding: 50px 0;
+
+
+}
+
+.letstalk__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.letstalk__content>div {
+    width: 100%;
+}
+
+.letstalk__content_textWrper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 50px;
+}
+
+.letstalk__content_text>h1 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.letstalk__content_text>p {
+    font-size: 24px;
+}
+
+
+
+.profileImageWrper {
+    width: 200px;
+    height: 230px;
+    border: 2px solid #cdcdcd;
+    border-radius: 5px;
+}
+
+.profileImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.profileImageText {
+    margin-top: 20px;
+}
+
+
+.letstalk__content_form {
+    background: #fff;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 25px 40px;
+}
+
+.nameFlield {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    margin: 20px 0px;
+}
+
+.nameFlield>label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nameFlield>input {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px 8px 8px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.nameFlield>input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.nameFlield>textarea {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px 8px 8px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    height: 90px;
+    font-family: arial;
+}
+
+.nameFlield>textarea:focus {
+    outline: none;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.nameFlield>input::placeholder {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial;
+}
+
+.nameFlield>textarea::placeholder {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial;
+}
+
+.nameFlieldafterWrper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.nameFlieldafterWrper>div {
+    width: 100%;
+}
+
+
+
+
+
+@media (max-width: 990px) {
+    .letstalk__content {
+        flex-direction: column;
+
+    }
+}

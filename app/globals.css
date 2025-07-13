@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #082889;
+  --secondary-color: #173796;
+  --white-primary: #fff;
+  --whiteSecondary-color: #F1F1F1;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #ddd;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4085f6;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #173796;
+}
+
+
+.contact-page {
+  background: blue;
+  height: 100vh;
+}

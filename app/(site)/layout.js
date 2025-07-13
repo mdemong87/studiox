@@ -1,0 +1,21 @@
+import { Inter } from "next/font/google";
+import Header from "../componnent/Header/Header";
+import "../globals.css";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+  title: "My Agency",
+  description: "This is my Agency website. Our Servies is website development",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <Header />
+        {children}
+      </body>
+    </html>
+  );
+}

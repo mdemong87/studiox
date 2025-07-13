@@ -1,0 +1,14 @@
+.headerLogo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--white-primary);
+}
+
+@media (max-width: 768px) {
+
+    .headerLogo {
+        font-size: 40px;
+    }
+
+
+}

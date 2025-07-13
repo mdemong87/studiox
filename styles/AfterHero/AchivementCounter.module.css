@@ -1,0 +1,24 @@
+.counderBoxWrper {
+    width: 100%;
+    height: fit-content;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    padding-bottom: 40px;
+}
+
+.achimentsectionHeading {
+    color: #a6a6a6;
+}
+
+
+.counderBoxWrper>div>h2 {
+    font-size: 45px;
+}
+
+.counderBoxWrper>div>p {
+    color: #a6a6a6;
+}

@@ -1,0 +1,60 @@
+.Togglebutton {
+    outline: none;
+    border: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 3.5vh;
+    /* left: 35px; */
+    right: 60px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+
+    background: white;
+
+
+    box-shadow: -5px -5px 30px 5px rgba(255, 255, 255, 0.226), 5px 5px 30px 5px rgba(255, 255, 255, 0.226);
+
+}
+
+.Togglebutton:focus {
+    box-shadow: -5px -5px 30px 5px rgba(255, 255, 255, 0), 5px 5px 30px 5px rgba(255, 255, 255, 0);
+    animation: clickAnimation .5s ease 1;
+}
+
+
+@keyframes clickAnimation {
+    100% {
+        box-shadow: -5px -5px 30px 5px rgba(255, 255, 255, 0.3226), 5px 5px 30px 5px rgba(255, 255, 255, 0.226);
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .Togglebutton {
+        right: 30px;
+
+        width: 51px;
+        height: 51px;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+    .Togglebutton {
+        right: 20px;
+    }
+
+
+}
